@@ -139,9 +139,9 @@ def quick_sorted(xs, cmp=cmp_standard):
         less = quick_sorted(lo, cmp=cmp)
         greater = quick_sorted(high,cmp=cmp)
 
-        if cmp = cmp_standard:
+        if cmp == cmp_standard:
             return less + pi + greater #return the concatenation of (less than, p, and greater than)
-        if cmp = cmp_reverse:
+        if cmp == cmp_reverse:
             return greater + pivot + less #return the concatenation of (less than, p, and greater than)
 
     
