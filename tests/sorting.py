@@ -62,7 +62,7 @@ def _merged(xs, ys, cmp=cmp_standard):
 
     if x == lengthxs and y == lengthys: #assumes full completion
               return new1 
-    elif i == lengthxs and y != lengthys:
+    elif x == lengthxs and y != lengthys:
         for z in range (y, lengthys):
             new1.append(ys[z])
         return new1
