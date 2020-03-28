@@ -135,7 +135,7 @@ def quick_sorted(xs, cmp=cmp_standard):
             elif z < x:
                 lo.append(z)
             else:
-                pi.append(i)
+                pi.append(z)
         less = quick_sorted(lo, cmp=cmp)
         greater = quick_sorted(high,cmp=cmp)
 
