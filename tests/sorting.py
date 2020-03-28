@@ -125,7 +125,7 @@ def quick_sorted(xs, cmp=cmp_standard):
     pi = []
 
     
-    if len(xs) == 1: #as stated
+    if len(xs) <= 1: #as stated
         return xs
     else:
         x = xs[0]
