@@ -142,7 +142,7 @@ def quick_sorted(xs, cmp=cmp_standard):
         if cmp == cmp_standard:
             return less + pi + greater #return the concatenation of (less than, p, and greater than)
         if cmp == cmp_reverse:
-            return greater + pivot + less #return the concatenation of (less than, p, and greater than)
+            return greater + pi + less #return the concatenation of (less than, p, and greater than)
 
     
 
