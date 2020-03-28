@@ -53,10 +53,10 @@ def _merged(xs, ys, cmp=cmp_standard):
     y = 0
 
     while x < lengthxs and y < lengthys:
-        if ((cmp == cmp_standard and xs[x] >= ys[y]) or (cmp == cmp_reverse and xs[x] <= ys[y]):
+        if ((cmp == cmp_standard and xs[x] >= ys[y]) or (cmp == cmp_reverse and xs[x] <= ys[y])):
             new1.append(ys[y])
             y = y + 1
-        elif ((cmp == cmp_standard and xs[x] < ys[y]) or (cmp == cmp_reverse and xs[x] > ys[y]):
+        elif ((cmp == cmp_standard and xs[x] < ys[y]) or (cmp == cmp_reverse and xs[x] > ys[y])):
             new1.append(xs[x])
             x = x + 1
 
