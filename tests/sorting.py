@@ -137,7 +137,7 @@ def quick_sorted(xs, cmp=cmp_standard):
             else:
                 pi.append(z)
         less = quick_sorted(lo, cmp=cmp)
-        greater = quick_sorted(high,cmp=cmp)
+        greater = quick_sorted(hi,cmp=cmp)
 
         if cmp == cmp_standard:
             return less + pi + greater #return the concatenation of (less than, p, and greater than)
