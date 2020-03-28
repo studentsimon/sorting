@@ -129,7 +129,7 @@ def quick_sorted(xs, cmp=cmp_standard):
         return xs
     else:
         x = xs[0]
-        for z in xs[0]:
+        for z in xs:
             if z > x:
                 hi.append(z)
             elif z < x:
